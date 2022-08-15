@@ -7,9 +7,9 @@ input.addEventListener('click', function() {
   alert('The best show there ever was!');
 });
 
-let btn = document.createElement("button");
-btn.innerHTML = "Click Me!";
-btn.onclick = function () {
 
+const button = document.getElementById("test")
+
+function changeColor() {
+    button.style.color = "red"
 }
-
