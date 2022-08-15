@@ -2,4 +2,15 @@ body {
     background-color: black;
     color: aliceblue;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+button {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button {
+    background-color: #3498db;
+}
+
